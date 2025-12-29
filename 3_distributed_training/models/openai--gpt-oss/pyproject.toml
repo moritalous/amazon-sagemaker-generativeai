@@ -1,0 +1,14 @@
+[project]
+name = "openai-gpt-oss"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "accelerate>=1.12.0",
+    "datasets==4.0.0",
+    "ipykernel>=7.1.0",
+    "kernels>=0.11.5",
+    "sagemaker>=3.0.0",
+    "transformers>=4.57.3",
+]
